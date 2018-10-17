@@ -4,7 +4,7 @@
 
 ##继承性与多态的实例练习，下题为计算一个长方形的面积，主类别负责接收长、宽数据，子类别继承主类数据。
 class chang:
-   def __int__(self,chang,kuan):
+   def __init__(self,chang,kuan):
        self.chang=chang
        self.kuan=kuan
 class changmj(chang):
